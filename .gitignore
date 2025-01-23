@@ -2,3 +2,10 @@ logrus
 vendor
 
 .idea/
+
+package-lock.json
+package.json
+
+node_modules/
+
+*_test.go

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sirupsen/logrus"
+	logrus "github.com/ividernvi/ivilog"
 	"github.com/stretchr/testify/assert"
 )
 

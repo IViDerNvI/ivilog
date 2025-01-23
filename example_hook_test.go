@@ -1,3 +1,4 @@
+//go:build !windows
 // +build !windows
 
 package logrus_test
@@ -6,8 +7,8 @@ import (
 	"log/syslog"
 	"os"
 
-	"github.com/sirupsen/logrus"
-	slhooks "github.com/sirupsen/logrus/hooks/syslog"
+	logrus "github.com/ividernvi/ivilog"
+	slhooks "github.com/ividernvi/ivilog/hooks/syslog"
 )
 
 // An example on how to use a hook

@@ -1,4 +1,4 @@
-module github.com/sirupsen/logrus/ci
+module github.com/ividernvi/ivilog/ci
 
 go 1.15
 

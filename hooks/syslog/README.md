@@ -5,8 +5,8 @@
 ```go
 import (
   "log/syslog"
-  "github.com/sirupsen/logrus"
-  lSyslog "github.com/sirupsen/logrus/hooks/syslog"
+  "github.com/ividernvi/ivilog"
+  lSyslog "github.com/ividernvi/ivilog/hooks/syslog"
 )
 
 func main() {
@@ -24,8 +24,8 @@ If you want to connect to local syslog (Ex. "/dev/log" or "/var/run/syslog" or "
 ```go
 import (
   "log/syslog"
-  "github.com/sirupsen/logrus"
-  lSyslog "github.com/sirupsen/logrus/hooks/syslog"
+  "github.com/ividernvi/ivilog"
+  lSyslog "github.com/ividernvi/ivilog/hooks/syslog"
 )
 
 func main() {
@@ -54,8 +54,8 @@ package main
 import (
 	"log/syslog"
 
-	log "github.com/sirupsen/logrus"
-	logrus_syslog "github.com/sirupsen/logrus/hooks/syslog"
+	log "github.com/ividernvi/ivilog"
+	logrus_syslog "github.com/ividernvi/ivilog/hooks/syslog"
 )
 
 type customHook struct {

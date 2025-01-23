@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/sirupsen/logrus"
+	logrus "github.com/ividernvi/ivilog"
 	"github.com/stretchr/testify/require"
 )
 
